@@ -1,6 +1,6 @@
 {
   "name": "@ngochuytu/react-pagination",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ReactJS component to render a pagination",
   "author": "Từ Ngọc Huy <tungochuy2001@gmail.com>",
   "repository": {
