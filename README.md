@@ -133,20 +133,20 @@ Test it on [CodeSandbox](https://codesandbox.io/s/ngochuytu-react-pagination-hz4
 
 # Props
 
-| Name                                 | Type      | Default | Description                                                                                                                                              |
-| ------------------------------------ | --------- | :-----: | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `totalPages`                         | number    |         | **(Required)** The total number of pages                                                                                                                 |
-| `activePage`                         | number    |         | (Optional) The initial active page. The default value is 1. This value is uncontrolled, `activePage` then will be controlled by component's state        |
-| `pageRange`                          | number    |   `7`   | (Optional) **(Min: 5)** Range of pages displayed, exclude 2 navigation button to first and last page.                                                    |
-| `breakButtonStep`                    | number    |   `1`   | (Optional) Step of break button.                                                                                                                         |
-| `disableNavigationButtons`           | boolean   | `false` | (Optional) Disable 2 navigation buttons.                                                                                                                 |
-| `disableInitialOnPageChangeCall`     | boolean   | `false` | (Optional) Disable initial `onPageChange` call. You might have to turn off [Strict mode](https://reactjs.org/docs/strict-mode.html) in development mode. |
-| `containerClassName`                 | string    |         | (Optional) ClassName of pagination's container                                                                                                           |
-| `pageButtonClassName`                | string    |         | (Optional) ClassName of each page button                                                                                                                 |
-| `activePageButtonClassName`          | string    |         | (Optional) ClassName of active page button                                                                                                               |
-| `navigateToFirstPageButtonClassName` | string    |         | (Optional) ClassName of navigate to first page button                                                                                                    |
-| `navigateToLastPageButtonClassName`  | string    |         | (Optional) ClassName of navigate to last page button                                                                                                     |
-| `breakButtonClassName`               | string    |         | (Optional) ClassName of break button                                                                                                                     |
+| Name                                 |   Type    | Default | Description                                                                                                                                              |
+| ------------------------------------ | :-------: | :-----: | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `totalPages`                         |  number   |         | **(Required)** The total number of pages                                                                                                                 |
+| `activePage`                         |  number   |         | (Optional) The initial active page. The default value is 1. This value is uncontrolled, `activePage` then will be controlled by component's state        |
+| `pageRange`                          |  number   |   `7`   | (Optional) **(Min: 5)** Range of pages displayed, exclude 2 navigation button to first and last page.                                                    |
+| `breakButtonStep`                    |  number   |   `1`   | (Optional) Step of break button.                                                                                                                         |
+| `disableNavigationButtons`           |  boolean  | `false` | (Optional) Disable 2 navigation buttons.                                                                                                                 |
+| `disableInitialOnPageChangeCall`     |  boolean  | `false` | (Optional) Disable initial `onPageChange` call. You might have to turn off [Strict mode](https://reactjs.org/docs/strict-mode.html) in development mode. |
+| `containerClassName`                 |  string   |         | (Optional) ClassName of pagination's container                                                                                                           |
+| `pageButtonClassName`                |  string   |         | (Optional) ClassName of each page button                                                                                                                 |
+| `activePageButtonClassName`          |  string   |         | (Optional) ClassName of active page button                                                                                                               |
+| `navigateToFirstPageButtonClassName` |  string   |         | (Optional) ClassName of navigate to first page button                                                                                                    |
+| `navigateToLastPageButtonClassName`  |  string   |         | (Optional) ClassName of navigate to last page button                                                                                                     |
+| `breakButtonClassName`               |  string   |         | (Optional) ClassName of break button                                                                                                                     |
 | `navigateToFirstPageButtonLabel`     | ReactNode | `"<<"`  | (Optional) Label for the navigate to first page button                                                                                                   |
 | `navigateToLastPageButtonLabel`      | ReactNode | `">>"`  | (Optional) Label for the navigate to last page button                                                                                                    |
 | `breakButtonLabel`                   | ReactNode | `"..."` | (Optional) Label for the break button                                                                                                                    |
